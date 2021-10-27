@@ -1,0 +1,47 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    width: 50%; /* pourcentage par rapport à la taille de l'écran */
+    margin: auto; /* Gestion automatique des marges pour que le tableau soit
+    centré */
+}
+table{
+    border: 4px double rgb(0, 0, 0); /* epaisseur, trait normal et couleur */
+    border-collapse: collapse; /* pour coller les border des cellules */
+    width: 100%; /* Prend toute la largeur du body */
+}
+
+caption{
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    background-color: rgb(252, 122, 0);
+}
+
+thead, tfoot{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+tbody{
+    border: 3px double rgb(94, 5, 238); /* Dashed, dotted, double, ridge, groove */
+}
+
+th{
+    border: 2px dotted lightseagreen;
+    padding: 4px;
+    background-color: rgb(255, 0, 149);
+}
+
+td{
+    font-size: 120%;
+    border: 1px dotted black;
+    text-align: center;
+}
+
+tr td:first-child{ /* 1er td pour aligner le text à gauche de chaque rangée */
+    text-align: left;
+    background-color: gray;
+}
+

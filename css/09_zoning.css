@@ -1,0 +1,52 @@
+body{
+    font-size: 25px;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid darkslategray;
+}
+
+header{
+    background-color: darkviolet;
+    height: 100px;
+}
+
+nav{
+    background-color: royalblue;
+    height: 30px;
+}
+
+section{
+    background-color: silver;
+    height: 500px;
+    margin: 20px;
+}
+
+footer{
+    background-color: greenyellow;
+    height: 100px;
+}
+
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.a{
+    background-color: lightgray;
+}
+.b{
+    background-color: red;
+}
+.c{
+    background-color: lightpink;
+}
+.d{
+    background-color: lightseagreen;
+}
+
+.clear{
+    clear:both;
+}

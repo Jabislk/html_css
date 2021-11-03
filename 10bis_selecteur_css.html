@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision</title>
+    <link rel="stylesheet" href="css\10bis_selecteur_css.css">
+</head>
+<body>
+    <nav> <!-- La balise nav est dédiée à la navigation-->
+        <a href="#">Home</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">FAQ</a>
+        <a href="#">Nous contacter</a>
+    </nav>
+    
+    <section class="container">
+        <h2>Aide mémoire des sélecteurs CSS déja vus :</h2>
+        <ul>
+            <li><mark>*</mark> sélectionne TOUS les éléments de la page HTML</li>
+
+            <li><mark>.ma-jolie-nav</mark>séléctionne la ou les balise ayant la class "ma-jolie-nav"</li>
+
+            <li><mark>#mon-unique-id</mark> sélectionne la balise ayant l'id "mon-unique-id"</li>
+
+            <li><mark>div, article, aside</mark> sélectionne toutes les balise &lt;div, &lt;article> et &lt;aside> </li>
+
+            <li><mark>nav a</mark> sélectionne tout les liens inclus dans la balise &lt;nav></li>
+            
+            <li>nav a<mark>:hover</mark> sélectionne touts les liens de la nav et active une animation au survol de la souris</li>
+        </ul>
+    </section>
+    <br>
+
+     <div class="container1">
+         <section class="container2">
+             <h2>Propriétés CSS utilisées dans cette page</h2>
+             <h3>Décrivez leur usage et les valeurs possibles en fonction de ce que vous déjà vu</h3>
+             <ol>
+                 <li>background : on peut l'utilisée pour la couleur de fond, il peut prendre plusieurs valeur, ( reapeat, url ) </li>
+                 <li>color : changer la couleur de textes peut prendre un nom (en anglais ),RGB ou un hexadécimal ../</li>
+                 <li>float : retir du flux un élément peut prandre les valeurs right et  left.</li>
+                 <li>font-family : police du texte, exmemple times new roman. </li>
+                 <li>font-size : permet d'augmeter ou de balisser la taille du texte exemple font-size: 20px (px, %, em, rem) </li>
+                 <li>height : règle la hauteur,( px, %, vh, vw)  </li>
+                 <li>left : pour mettre à gauche (px, %,...) </li>
+                 <li>line-height : espacement entre les lignes de texte ( interligne ) (px, %, em, rem) </li>
+                 <li>margin : taille des marge exterieurs, peut prandre jusqu' à 4 valeurs, sens horaire (px, %, em...).</li>
+                 <li>padding : définit la taille des marges intérieur, sens horaire (px,...) </li>
+                 <li>position : permet de changer la position d'une balise, statique, relative, fixed...</li>
+                 <li>text-align : permet d'aligner un texte, center, justify, right, left </li>
+                 <li>text-decoration : permet de retier le soulignement avec la valeur none </li>
+                 <li>top : fonctionne avec position, permet de situer sur l'axe des ordonnées la position'une balise</li>
+                 <li>transition : précise un permamétre 'une animation comme sa durée, peut prandre une valeur en secondes.</li>
+                 <li>width : permet de motifer la larger </li>
+             </ol>
+         </section>
+
+
+         <section class="container3"> 
+             <h2>Propriétés CSS à rechercher</h2>
+             <h3>Recherchez les propriétés ci-dessous, faites des tests avec cette page depuis la console de deduggage (F12 sur Firefox ou clic "inspecter").</h3>
+             <ol>
+                 <li>font-weight : change l'etat d'une police d'ecriture -> graisse (bold, valeur de 1 a 1000).</li>
+                 <li>letter-specing : pour changer les l'espace entre les caractères</li>
+                 <li>word-spacing : détermine l'espace entre les mots px, em, ...</li>
+                 <li>text-shadow : ombrage du texte, en px, x, y fondu, coloeur.</li>
+                 <li>background-image :modife l'arrire plan d'une balise, prend une url, un dégradé comme valeurs </li>
+                 <li>backgroud-size : définit la taille des images d'arrière-plan pour l'élément (cover, px, %, containe ) .</li>
+                 <li>opacity : défini la transparence de la balise, 0 à 1, 0 -> invisible </li>
+                 <li>boder-style : définir le style de bordure utilisé, dotted, dashed, solide, double, groove, ridage </li>
+                 <li>box-shadow : ajoute une ombre derriére une baliseen px %, x, y, blur, diffustion black 1px 1px 5px 10px</li>
+                 <li>list-style-image : remplace la puce d'une liste par une image, url('')</li>
+                 <li>border : ajoute une bordure, coloeur, taille en px, style de trait </li>
+                 <li>border-radius : arrondie le coin d'un élément, sa valeur est en px, em et ex</li>
+                 <li>border-width : définir la largeur d'une bordure en px, em et ex</li>
+                 <li>font-variant : modife le style de la police, plusieurs valeurs mall-caps, normal...</li>
+                 <li>backgroun-color : caractèrse la couleur du background, hexadécimal, couleur en anglais ... </li>
+                 <li>!important : à mettre à la fin d'une ligne, force le navigateur à utiliser ce style</li>
+             </ol>
+         </section>
+
+         <div class="clear"></div>
+     </div><!--fin container1-->
+
+     <section class="container container4">
+         <h2>Pour aller plus loin en CSS, quelques pistes ...</h2>
+         <ul>
+             <li>
+                 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN le site officiel</a>
+             </li>
+             <li>
+                 <a href="http://www.w3c.org/Style/CSS/learning" target="_blank">Le site du W3C (la partie sur le CSS)</a>
+             </li>
+             <li>
+                 <a href="https://flukeout.github.io" target="_blank">Jeu avec les sélecteurs CSS</a>
+             </li>
+         </ul>
+     </section>
+</body>
+</html>

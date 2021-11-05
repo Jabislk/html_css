@@ -1,0 +1,22 @@
+table{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+thead{
+    width: 650px;
+    height: 152px;
+    text-align: center;
+}
+
+.txt{
+    color: gray;
+    padding-left: 15px;
+    padding: 5%;
+}
+a{
+    display: inline-block;
+    margin-top: 7%;
+    margin-bottom: 15%;
+}

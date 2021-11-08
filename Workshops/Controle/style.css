@@ -1,0 +1,57 @@
+body{
+    background-color: #c9ff83;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+/* Header start */
+header{
+    position: relative;
+    margin-left: 300px;
+    background-color:#ffff;
+    width: 850px;
+    height: 258px;
+    margin-top: 10px;
+}
+.apple{
+    margin-bottom: 16px;
+}
+.logo{
+    margin-bottom: 190px;
+    margin-left: 100px;
+    padding-top: 15px;
+}
+/* Heder finised */
+
+/* Nav Start */
+button{
+    width: 167px;
+    background-color: #9cff1b;
+    
+}
+.button{
+    padding-left: 299px
+}
+
+/* Nav finised */
+
+/* Main page with textes */
+main{
+
+    margin-left: 299px;
+    background-color: #ffff;
+    width: 850px;
+}
+h1{
+    text-align: center;
+    float: right;
+    margin-right: 678px;
+    font-family: sans-serif;
+    color: #3fb13f; 
+    font-size: 21px;
+}
+/* Main page with textes finised*/
+
+
+
+

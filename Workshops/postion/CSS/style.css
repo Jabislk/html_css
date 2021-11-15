@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+}
+
+.carre1{
+        width: 75px;
+        height: 75px;
+        background-color: red;
+        position: relative;
+        top: 0;
+}
+.carre2{
+        width: 75px;
+        height: 75px;
+        background-color: blue;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+}
+.carre3{
+        width: 75px;
+        height: 75px;
+        background-color: green;
+        position: fixed;
+        bottom: 0px;
+}
+.carre4{
+        width: 75px;
+        height: 75px;
+        background-color: yellow;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+}
+
+.rond{
+    width: 75px;
+    height: 75px;
+    border-radius: 39px;
+    background: aqua;
+    position: absolute;
+    left: 47%;
+    bottom: 337px;
+    filter: drop-shadow(0 13px 1px rgb(128,128,128));
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 75px 0 75px;
+    border-color: #ff00f4 transparent transparent transparent;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    left: 44.5%;
+    
+}

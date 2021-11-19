@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/*---------------- HEADER --------------------*/
+header{
+    background: linear-gradient(rgb(45, 253, 149), rgb(34,193,195));
+}
+
+h1 img{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    bottom: 15px;
+}
+
+nav h1{
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    height: 90px;
+}
+
+marquee{
+    height: 50px;
+    border: 5px solid white ;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 19px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 25px;
+}
+
+nav ul li{
+    margin: 15px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/*---------------- MAIN ---------------*/
+
+/*----- BOX 1 ------*/
+.japon{
+    background: linear-gradient(rgb(86,166,241), rgb(191,129,148));
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin: 20px 150px;
+    font-family: 'Prompt', sans-serif;
+    border-radius: 15px;
+    color: white;
+}
+
+.japon h1{
+    font-size: 35px;
+}
+
+.textjapon{
+    font-size: 14px;
+    margin-right: 25px;
+}
+.img1{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 15px 70px;
+    align-items: center;
+}
+
+/*----- BOX 2 ------*/
+.thaïlande{
+    background: linear-gradient(rgb(70,134,195),rgb(97,227,194));
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 300px;
+    margin: 15px 150px;
+    font-family: 'Prompt', sans-serif;
+    border-radius: 15px;
+    color: white;
+}
+.img2{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 15px 70px;
+    align-items: center;
+}
+/*----- BOX 3 ------*/
+.inde{
+    background: linear-gradient(rgb(92,144,181), rgb(226,132,23));
+    display: flex;
+    justify-content: space-between;
+
+    height: 300px;
+    margin: 15px 150px;
+    font-family: 'Prompt', sans-serif;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.textinde{
+    font-size: 15px;
+    margin-right: 25px;
+}
+.img3{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 15px 70px;
+    align-items: center;
+}
+
+/*------------ FOOTEUR --------------*/
+.copyright{
+    background: linear-gradient(rgb(45, 253, 149), rgb(34,193,195));
+    height: 90px;
+    font-size: 15px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;;
+    color: white;
+    justify-content: space-between;
+}
+.icons{
+    margin: 30px;
+}

@@ -61,11 +61,11 @@ nav ul li{
     background: linear-gradient(rgb(86,166,241), rgb(191,129,148));
     display: flex;
     justify-content: space-between;
-    height: 300px;
     margin: 20px 150px;
     font-family: 'Prompt', sans-serif;
     border-radius: 15px;
     color: white;
+    align-items: center;
 }
 
 .japon h1{
@@ -90,11 +90,11 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    height: 300px;
     margin: 15px 150px;
     font-family: 'Prompt', sans-serif;
     border-radius: 15px;
     color: white;
+    align-items: center;
 }
 .headthai{
     margin-left: 35px;
@@ -116,12 +116,11 @@ nav ul li{
     background: linear-gradient(rgb(92,144,181), rgb(226,132,23));
     display: flex;
     justify-content: space-between;
-
-    height: 300px;
     margin: 15px 150px;
     font-family: 'Prompt', sans-serif;
     border-radius: 15px;
     color: white;
+    align-items: center;
 }
 
 
@@ -150,4 +149,11 @@ nav ul li{
 }
 .icons{
     margin: 30px;
+}
+
+
+@media (max-width: 768px){
+    .conteneur{
+        background-color: brown;
+    }
 }
